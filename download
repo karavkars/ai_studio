@@ -1,0 +1,85 @@
+# ==========================================
+# Python Byte-compiled / Optimized Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+lib/
+lib64/
+include/
+
+# ==========================================
+# Django Specific Files
+# ==========================================
+# Ignore the default local database
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore user-uploaded media files
+media/
+
+# Ignore gathered static files (if you run collectstatic locally)
+staticfiles/
+static/
+
+# Ignore local secret files / environment variables
+.env
+.env.[a-zA-Z0-9]*
+local_settings.py
+
+# Ignore logs
+*.log
+
+# ==========================================
+# Testing & Code Quality
+# ==========================================
+.htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# OS / System Specific Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# IDEs and Text Editors
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
