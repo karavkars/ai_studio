@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-ql)1(6tb5_tf7xypvwtrc$)v)uzbf!w=g!23^f90^r&2ktkl)#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    ".vercel.app",
+    "localhost",
+    "127.0.0.1",
+]
 
 # ADMIN_LOGO = 'logo.png'
 MENU_WEIGHT = {
